@@ -1,0 +1,1 @@
+请使用 knowledge-base-builder-v5 sub-agent 分析当前项目。从 README.md（或 CLAUDE.md）开始，然后全面扫描整个代码库，为我生成一套完整的项目知识库。

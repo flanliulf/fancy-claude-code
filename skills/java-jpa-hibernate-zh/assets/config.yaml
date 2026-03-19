@@ -1,0 +1,41 @@
+# java-jpa-hibernate 配置
+# 分类：通用
+# 生成时间：2025-12-30
+
+skill:
+  name: java-jpa-hibernate
+  version: "1.0.0"
+  category: general
+
+settings:
+  # java-jpa-hibernate 默认设置
+  enabled: true
+  log_level: info
+
+  # 分类特定的默认值
+  validation:
+    strict_mode: false
+    auto_fix: false
+
+  output:
+    format: markdown
+    include_examples: true
+
+# 环境特定的覆盖配置
+environments:
+  development:
+    log_level: debug
+    validation:
+      strict_mode: false
+
+  production:
+    log_level: warn
+    validation:
+      strict_mode: true
+
+# 集成设置
+integrations:
+  # 启用/禁用集成
+  git: true
+  linter: true
+  formatter: true

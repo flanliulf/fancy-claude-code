@@ -1,0 +1,1 @@
+解释以下的技术决策事项，并将结果保存到 @docs/sprint-artifacts/ 目录下 的 {storyid}-{storyname}.{tech-decisions}.md 文件中，技术决策事项如下：$ARGUMENTS

@@ -1,0 +1,11 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "<your-api-token>",
+    "ANTHROPIC_BASE_URL": "<your-api-base-url>"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/scripts/statusline-command.sh"
+  },
+  "skipDangerousModePermissionPrompt": true
+}

@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Sensitive / credentials
+settings.json
+settings.json.backup
+config.json
+
+# Runtime data
+history.jsonl
+stats-cache.json
+.update.lock
+
+# Cache & temporary
+cache/
+paste-cache/
+shell-snapshots/
+session-env/
+file-history/
+debug/
+telemetry/
+ide/
+plans/
+tasks/
+backups/
+statsig/
+.claude/
+
+# Large / binary
+ccline/
+plugins/
+
+# Personal data
+projects/
+todos/
